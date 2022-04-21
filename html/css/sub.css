@@ -1,0 +1,48 @@
+
+#top{ width: 100%; height: 200px; margin: 0 auto; background-image: url(../img/main.jpg); background-position:center; background-repeat: no-repeat;}
+
+nav{width: 100%; height: 60px; border: 1px solid rgb(228, 228, 228);}
+#category{width: 1165px; height: 60px; margin: 0 auto;}
+#category>ul{ display: flex; justify-content: space-evenly; height: 100%; align-items: center;}
+#category ul li{position: relative;padding: 5px;}
+#category ul li ul{ position: absolute;z-index: 10; top:35px;left: 50%; transform: translateX(-50%); display: none;}
+#category ul li:hover ul{display: block;} 
+
+#category ul li ul li{padding: 5px 20px 5px 20px; background-color: white; border: rgb(228, 228, 228) 1px solid; text-align: center;} 
+
+
+
+
+
+
+
+section{width:1165px; height: 1000px; margin: 0 auto;}
+#product{position: relative; float: left; width: 650px; height: 1000px; margin: 0 auto;}
+#product>img{position: absolute; left: 140px; width: 250px; height: 600px; top: 150px;}
+
+.plus{width: 70px; height: 600px; position: absolute;top:170px; left: 470px;}
+.plusimg{width: 60px; height: 100px; border: rgb(228, 228, 228) 1px solid;margin-bottom: 10px;}
+.plusimg>img{width: 55px; height: 95px;}
+.plusimg>img:hover{cursor:zoom-in;}
+
+
+#purchase{float: right; width: 450px; height: 1000px; margin: 0 auto; border-left:1px rgb(228, 228, 228) solid;}
+.name{width: 330px; height: 220px; border-bottom: #333 solid 1px; margin: 0 auto;display: flex; align-items: flex-end;}
+.name h1{font-size: 39px; margin-bottom: 20px;}
+table{width: 330px; height: 330px; margin: 0 auto;}
+td:first-child{color:rgb(168, 168, 168) ;}
+
+select{ width: 170px; height: 30px; border: rgb(196, 196, 196) 1px solid; text-align: center;}
+
+.buybox{width: 330px; height: 165px; margin: 0 auto;border-top: #333 1px solid; display: flex; flex-flow: row wrap;}
+.buybox button{width: 330px; height: 50px; margin-bottom: 5px; border: 1px rgb(228, 228, 228) solid;}
+.buybox button:hover{cursor: pointer; border: #333 1px solid;}
+
+.buybox button:nth-of-type(1){background-color:black; color: white; margin-top:20px;}
+.buybox button:nth-of-type(2){background-color: rgb(245, 245, 245)}
+.buybox button:nth-of-type(3){background-color: white;}
+
+
+
+#detail{width:100%; height: 450px; border-top: rgb(228, 228, 228) 1px solid;}
+#guide{width: 1165px; height: 450px; margin: 0 auto; border: #333 solid 1px;}
