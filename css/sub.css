@@ -11,11 +11,6 @@ nav{width: 100%; height: 60px; border: 1px solid rgb(228, 228, 228);}
 #category ul li ul li{padding: 5px 20px 5px 20px; background-color: white; border: rgb(228, 228, 228) 1px solid; text-align: center;} 
 
 
-
-
-
-
-
 section{width:1165px; height: 1000px; margin: 0 auto;}
 #product{position: relative; float: left; width: 650px; height: 1000px; margin: 0 auto;}
 #product>img{position: absolute; left: 140px; width: 250px; height: 600px; top: 150px;}
@@ -44,9 +39,41 @@ select{ width: 170px; height: 30px; border: rgb(196, 196, 196) 1px solid; text-a
 
 
 
-#detail{width:100%; height: 450px; border-top: rgb(228, 228, 228) 1px solid;}
-#guide{width: 1165px; height: 450px; margin: 0 auto; border: #333 solid 1px;}
+#detail{width:100%; height: 3000px; border-top: rgb(228, 228, 228) 1px solid;}
+#guide{width: 1165px; height: 3000px; margin: 0 auto; border: #333 solid 1px;}
 #guide ul{display: flex; justify-content: center; margin-top: 65px}
 #guide ul li a{margin: 17px; color: rgb(168, 168, 168);}
 #guide ul li{margin: 17px; color: rgb(228, 228, 228);}
 #guide li:hover a{color:#333;}
+
+.productdetail{margin-top: 100px;}
+.productdetail img:first-child{width: 1162px;}
+.productdetail iframe{width: 100%; margin: 0 auto;}
+.productdetail img:nth-of-type(2){width: 1162px;}
+.pattern{width: 100%; height:400px;}
+.pattern img{width: 382px; height: 366px; float: right;}
+.pattern .textbox{float: left; margin-top:100px; width: 700px; text-align: center;}
+.pattern .textbox p{font-size: 14px; margin-top: 50px;}
+.pattern{ width: 100%; height: 450px; padding: 30px; margin-top: 30px ; border: rgb(228, 228, 228) 1px solid;}
+
+
+.bodystyle img:nth-of-type(1){width: 380px; height: 260px;}
+.bodystyle img:nth-of-type(2){width: 380px; height: 260px;}
+.bodystyle img:nth-of-type(3){width: 380px; height: 260px;}
+.bodystyle{display: flex; justify-content: space-evenly; text-align: center;}
+.bodystyle h3{font-size: 17px; margin: 20px 0; font-weight: 400;}
+.bodystyle p{font-size: 13px; padding: 10px 20px; line-height: 20px; text-align: left;}
+.bodystyle>div{width: 380px; height: 500px;}
+
+
+.review{display: none;}
+
+.qa{display: none;}
+.qahead, .rehead{background-color:rgb(245, 245, 245); padding: 20px; text-align: center; margin-top: 100px; border: 1px solid rgb(196, 196, 196);}
+.question, .rev{padding: 20px; line-height: 30px; border: 1px solid rgb(228, 228, 228);}
+.qa button, .review button {padding: 10px 30px; float: right; margin: 15px;background-color: white; border:1px solid rgb(228, 228, 228);}
+.qa button, .review button:hover{border-color: #333; cursor: pointer;}
+
+.shopping{display: none;}
+.shopping h3{font-size: 22px; margin:80px 0 20px 0px;}
+.shopping p{font-size: 15px; line-height: 30px;}
