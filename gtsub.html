@@ -31,6 +31,34 @@
             });
 
         });
+
+        $(function () {
+            $('guid ul li:nth-oftype(1)').click(function () {
+                $(".productdetail").show();
+                $(".review").hide();
+                $(".qa").hide();
+                $(".shopping").hide();
+            });
+            $('guid ul li:nth-oftype(3)').click(function () {
+                $(".productdetail").hide();
+                $(".review").show();
+                $(".qa").hide();
+                $(".shopping").hide();
+            });
+            $('guid ul li:nth-oftype(5)').click(function () {
+                $(".productdetail").hide();
+                $(".review").hide();
+                $(".qa").show();
+                $(".shopping").hide();
+            });
+            $('guid ul li:nth-oftype(7)').click(function () {
+                $(".productdetail").hide();
+                $(".review").hide();
+                $(".qa").hide();
+                $(".shopping").show();
+            });
+        });
+
     </script>
 
 
@@ -200,13 +228,13 @@
             <div id="guide">
 
                 <ul>
-                    <li><a href="">PRODUCT DETAIL</a></li>
+                    <li>PRODUCT DETAIL</a></li>
                     <li>|</li>
-                    <li><a href="">REVIEW</a></li>
+                    <li>REVIEW</a></li>
                     <li>|</li>
-                    <li><a href="">Q&A</a></li>
+                    <li>Q&A</a></li>
                     <li>|</li>
-                    <li><a href="">SHOPPING GUIDE</a></li>
+                    <li>SHOPPING GUIDE</a></li>
                 </ul>
 
 
@@ -214,8 +242,11 @@
 
                     <img src="img/detail1.jpg" alt="">
 
-                    <iframe width="1096" height="616" src="https://www.youtube.com/embed/XjKQgGbSZYY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
-                    autoplay muted loop></iframe>
+                    <iframe width="1096" height="616"
+                        src="https://www.youtube.com/embed/XjKQgGbSZYY?autoplay=1&amp;mute=1"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
                     <img src="img/detail2.jpg" alt="">
                     <div class="pattern">
                         <div class="textbox">
@@ -228,33 +259,73 @@
                         <div class="lj">
                             <h3>LJ: Medium Jumbo Body</h3>
                             <img src="img/detail4.jpg" alt="">
-                            <p>LJ 바디 모양은 앉아서 연주할 때 적합하도록 디자인되었습니다. 
-                                LJ시리즈의 음량 출력은 LL 시리즈보다 약간 작지만 넓은 다이내믹 레인지, 
-                                강한 현장감이 있는 저음역대 그리고 리드부터 스트러밍까지 광범위한 연주 
+                            <p>LJ 바디 모양은 앉아서 연주할 때 적합하도록 디자인되었습니다.
+                                LJ시리즈의 음량 출력은 LL 시리즈보다 약간 작지만 넓은 다이내믹 레인지,
+                                강한 현장감이 있는 저음역대 그리고 리드부터 스트러밍까지 광범위한 연주
                                 스타일을 수용하는 산뜻한 톤을 제공합니다.</p>
-                            
+
                         </div>
                         <div class="ll">
                             <h3>LL: Yamaha Original Jumbo Body</h3>
                             <img src="img/detail5.jpg" alt="">
-                            <p>전통적인 Yamaha 바디 스타일인 LL 바디는 풍부한 음량과 넓은 다이내믹 레인지, 
-                                완벽하게 균형잡힌 톤으로 유명합니다. 아름답고 투명한 톤은 전세계의 아티스트에 
+                            <p>전통적인 Yamaha 바디 스타일인 LL 바디는 풍부한 음량과 넓은 다이내믹 레인지,
+                                완벽하게 균형잡힌 톤으로 유명합니다. 아름답고 투명한 톤은 전세계의 아티스트에
                                 의해 다듬어진 디자인의 결과입니다.
                             </p>
-                           
+
                         </div>
                         <div class="ls">
                             <h3>LS: Small Body</h3>
                             <img src="img/detail6.jpg" alt="">
-                            <p>LS는 Yamaha에서 긴 역사를 가진 소형바디 모델입니다. 
-                                완벽하게 균형잡인 톤을 형성하여, 작은 바디에 비해 크고 웅장한 사운드를 제공합니다. 
+                            <p>LS는 Yamaha에서 긴 역사를 가진 소형바디 모델입니다.
+                                완벽하게 균형잡인 톤을 형성하여, 작은 바디에 비해 크고 웅장한 사운드를 제공합니다.
                                 이러한 특징은 핑거스타일 기타리스트들에게 적합합니다.</p>
+
+                        </div>
+
+
+                    </div>
+
+                    <div class="neck">
+                        <div class="neck1">
+
+                            <h5>편안한 넥 구조</h5>
+                            <img src="img/neck1.jpg" alt="">
+                            <p>현 간격, 현 높이, 핑거보드 바인딩 및 넥 테이퍼를 재측정하여
+                                현대의 연주자에게 더욱 적합한 새로운 넥 모양을 얻었습니다.
+                                새로운 디자인은 안정적인 그립과 부드러운 연주감을 제공합니다</p>
+                        </div>
+
+                        <div class="neck2">
+                            <h5>5겹 구조의 넥</h5>
+                            <img src="img/neck2.jpg" alt="">
+                            <p>마호가니와 로즈우드를 사용하여 헤드에 소용돌이 장식과 함께 조절식
+                                더블 액션 로드를 적용한 5겹 구조의 넥은 탁월한 강도와 안정성을 갖추었습니다.</p>
 
                         </div>
                     </div>
 
+                    <div class="pick">
+                        <div class="neck1">
+                            <h5>로즈우드 또는 마호가니 후판 및 측판 선택</h5>
+                            <img src="img/choice1.jpg" alt="">
+                            <p>이번 시리즈는 마호가니 후판과 측판이 있는 모델(LL16M/6M, LS16M/6M)이
+                                포함되어 사용자는 자신의 연주 스타일과 선호하는 톤에 따라 선택할 수
+                                있게 되었습니다. 로즈우드 모델은 저음부터 고음까지 균형 잡힌 톤을
+                                제공하고, 마호가니 모델은 신속한 반응과 더불어 풍부한 저음역대를
+                                제공합니다.</p>
+                        </div>
 
-
+                        <div class="neck2">
+                            <h5>SRT Zero Impact 픽업</h5>
+                            <img src="img/choice2.jpg" alt="">
+                            <p>패시브 타입 픽업 시스템은 악기의 톤과 전통적인 외관에 미치는 픽업의
+                                영향을 최소화하도록 설계된 새로운 수동형 픽업 구성입니다. 이 시스템은
+                                각 현에 개별 피에조 소자를 활용하여 L 시리즈의 다이내믹한 사운드를
+                                충실히 재현하며 뛰어난 현장감을 제공합니다. *L56,36,26에는 이 픽업이
+                                없습니다.</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="review">
                     <div class="rehead">

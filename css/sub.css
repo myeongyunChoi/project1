@@ -4,9 +4,10 @@
 nav{width: 100%; height: 60px; border: 1px solid rgb(228, 228, 228);}
 #category{width: 1165px; height: 60px; margin: 0 auto;}
 #category>ul{ display: flex; justify-content: space-evenly; height: 100%; align-items: center;}
-#category ul li{position: relative;padding: 5px;}
-#category ul li ul{ position: absolute;z-index: 10; top:35px;left: 50%; transform: translateX(-50%); display: none;}
+#category ul li{position: relative; padding: 15px;}
+#category ul li ul{z-index: 15; position: absolute; top:53px;left: 50%; transform: translateX(-50%); display: none;}
 #category ul li:hover ul{display: block;} 
+#category ul li ul li:hover{background-color: rgb(228, 228, 228)}
 
 #category ul li ul li{padding: 5px 20px 5px 20px; background-color: white; border: rgb(228, 228, 228) 1px solid; text-align: center;} 
 
@@ -39,12 +40,12 @@ select{ width: 170px; height: 30px; border: rgb(196, 196, 196) 1px solid; text-a
 
 
 
-#detail{width:100%; height: 3000px; border-top: rgb(228, 228, 228) 1px solid;}
-#guide{width: 1165px; height: 3000px; margin: 0 auto; border: #333 solid 1px;}
-#guide ul{display: flex; justify-content: center; margin-top: 65px}
-#guide ul li a{margin: 17px; color: rgb(168, 168, 168);}
-#guide ul li{margin: 17px; color: rgb(228, 228, 228);}
-#guide li:hover a{color:#333;}
+#detail{width:100%; height: 4000px; border-top: rgb(228, 228, 228) 1px solid;}
+#guide{width: 1165px; height: 100%; margin: 0 auto;}
+#guide ul{display: flex; justify-content: center; margin-top: 100px;}
+#guide ul li{margin: 17px; color: rgb(150, 150, 150);}
+#guide li:hover{color:#333; cursor: pointer;}
+
 
 .productdetail{margin-top: 100px;}
 .productdetail img:first-child{width: 1162px;}
@@ -57,6 +58,7 @@ select{ width: 170px; height: 30px; border: rgb(196, 196, 196) 1px solid; text-a
 .pattern{ width: 100%; height: 450px; padding: 30px; margin-top: 30px ; border: rgb(228, 228, 228) 1px solid;}
 
 
+.bodystyle{width: 100%; height: 500px; border-bottom: rgb(228, 228, 228) 1px solid;}
 .bodystyle img:nth-of-type(1){width: 380px; height: 260px;}
 .bodystyle img:nth-of-type(2){width: 380px; height: 260px;}
 .bodystyle img:nth-of-type(3){width: 380px; height: 260px;}
@@ -64,6 +66,19 @@ select{ width: 170px; height: 30px; border: rgb(196, 196, 196) 1px solid; text-a
 .bodystyle h3{font-size: 17px; margin: 20px 0; font-weight: 400;}
 .bodystyle p{font-size: 13px; padding: 10px 20px; line-height: 20px; text-align: left;}
 .bodystyle>div{width: 380px; height: 500px;}
+
+.neck{width: 100%; height: 500px; display: flex;}
+.neck div{width: 100%;}
+.neck div h5{padding: 20px; text-align: center; font-size: 20px; font-family:'Work Sans', sans-serif;}
+.neck div p{padding: 25px; font-size: 15px;}
+.neck img{width: 100%; height: 300px;}
+
+.pick{width: 100%; height: 400px; display: flex;}
+.pick div{width: 100%;}
+.pick div h5{padding: 20px; text-align: center; font-size: 20px; font-family:'Work Sans', sans-serif;}
+.pick div p{padding: 25px; font-size: 15px;}
+.pick img{width: 100%; height: 300px;}
+
 
 
 .review{display: none;}
