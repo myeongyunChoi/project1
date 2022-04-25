@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>guitar sub</title>
 
     <link rel="stylesheet" href="css/sub.css">
     <link rel="stylesheet" href="css/common.css">
@@ -33,38 +33,105 @@
         });
 
         $(function () {
-            $('guid ul li:nth-oftype(1)').click(function () {
-                $(".productdetail").show();
-                $(".review").hide();
-                $(".qa").hide();
-                $(".shopping").hide();
+            $('#productdetail li:nth-of-type(3)').click(function () {
+                $("#productdetail").hide();
+                $("#review").fadeIn();
+                $("#qa").hide();
+                $("#shopping").hide();
+                $('#detail').css({height:1200})
             });
-            $('guid ul li:nth-oftype(3)').click(function () {
-                $(".productdetail").hide();
-                $(".review").show();
-                $(".qa").hide();
-                $(".shopping").hide();
+            $('#productdetail li:nth-of-type(5)').click(function () {
+                $("#productdetail").hide();
+                $("#review").hide();
+                $("#qa").fadeIn();
+                $("#shopping").hide();
+                $('#detail').css({height:1800})
             });
-            $('guid ul li:nth-oftype(5)').click(function () {
-                $(".productdetail").hide();
-                $(".review").hide();
-                $(".qa").show();
-                $(".shopping").hide();
-            });
-            $('guid ul li:nth-oftype(7)').click(function () {
-                $(".productdetail").hide();
-                $(".review").hide();
-                $(".qa").hide();
-                $(".shopping").show();
+            $('#productdetail li:nth-of-type(7)').click(function () {
+                $("#productdetail").hide();
+                $("#review").hide();
+                $("#qa").hide();
+                $("#shopping").fadeIn();
+                $('#detail').css({height:1500})
             });
         });
 
+        $(function () {
+            $('#review li:nth-of-type(1)').click(function () {
+                $("#productdetail").fadeIn();
+                $("#review").hide();
+                $("#qa").hide();
+                $("#shopping").hide();
+                $('#detail').css({height:4000})
+            });
+            $('#review li:nth-of-type(5)').click(function () {
+                $("#productdetail").hide();
+                $("#review").hide();
+                $("#qa").fadeIn();
+                $("#shopping").hide();
+                $('#detail').css({height:1800})
+            });
+            $('#review li:nth-of-type(7)').click(function () {
+                $("#productdetail").hide();
+                $("#review").hide();
+                $("#qa").hide();
+                $("#shopping").fadeIn();
+                $('#detail').css({height:1500})
+            });
+        });
+
+        $(function () {
+            $('#qa li:nth-of-type(1)').click(function () {
+                $("#productdetail").fadeIn();
+                $("#review").hide();
+                $("#qa").hide();
+                $("#shopping").hide();
+                $('#detail').css({height:4000})
+            });
+            $('#qa li:nth-of-type(3)').click(function () {
+                $("#productdetail").hide();
+                $("#review").fadeIn();
+                $("#qa").hide();
+                $("#shopping").hide();
+                $('#detail').css({height:1200})             
+            });
+            $('#qa li:nth-of-type(7)').click(function () {
+                $("#productdetail").hide();
+                $("#review").hide();
+                $("#qa").hide();
+                $("#shopping").fadeIn();
+                $('#detail').css({height:1500})
+            });
+        });
+
+        $(function () {
+
+            $('#shopping li:nth-of-type(1)').click(function () {
+                $("#productdetail").fadeIn();
+                $("#review").hide();
+                $("#qa").hide();
+                $("#shopping").hide();
+                $('#detail').css({height:4000})
+            });
+            $('#shopping li:nth-of-type(3)').click(function () {
+                $("#productdetail").hide();
+                $("#review").fadeIn();
+                $("#qa").hide();
+                $("#shopping").hide();
+                $('#detail').css({height:1200})
+            });
+            $('#shopping li:nth-of-type(5)').click(function () {
+                $("#productdetail").hide();
+                $("#review").hide();
+                $("#qa").fadeIn();
+                $("#shopping").hide();
+                $('#detail').css({height:1800})
+            });
+            
+        });
+
+
     </script>
-
-
-
-
-
 
 </head>
 
@@ -76,16 +143,16 @@
             <ul>
                 <li><a href="#">MENU</a>
                     <ul>
-                        <li><a href="#">My Page</a></li>
-                        <li><a href="#">Find a Store</a></li>
-                        <li><a href="#">Custom Service</a></li>
+                        <li><a href="index.html">My Page</a></li>
+                        <li><a href="index.html">Find a Store</a></li>
+                        <li><a href="index.html">Custom Service</a></li>
                     </ul>
                 </li>
             </ul>
             <div id="icon">
-                <a href="#"><img src="img/icon2.png" alt="회원"></a>
+                <a href="index.html"><img src="img/icon2.png" alt="회원"></a>
 
-                <a href="#"><img src="img/icon1.png" alt="검색"></a>
+                <a href="index.html"><img src="img/icon1.png" alt="검색"></a>
             </div>
             <div id="logo">
                 <h2>Guitar Mall</h2>
@@ -99,61 +166,61 @@
             <div id="category">
 
                 <ul>
-                    <li><a href="#">ACOUSTIC GUITAR</a>
+                    <li><a href="index.html">ACOUSTIC GUITAR</a>
                         <ul>
-                            <li><a href="">L&nbsp;SERIES</a></li>
-                            <li><a href="">ASERIES</a></li>
-                            <li><a href="">FG/FS&nbsp;Red&nbsp;label</a></li>
-                            <li><a href="">FG/FGX</a></li>
-                            <li><a href="">STORIA</a></li>
+                            <li><a href="index.html">L&nbsp;SERIES</a></li>
+                            <li><a href="index.html">ASERIES</a></li>
+                            <li><a href="index.html">FG/FS&nbsp;Red&nbsp;label</a></li>
+                            <li><a href="index.html">FG/FGX</a></li>
+                            <li><a href="index.html">STORIA</a></li>
                         </ul>
                     </li>
                     <li>|</li>
                     <li><a href="#">SILENT GUITAR</a>
                         <ul>
-                            <li><a href="">SLG200S</a></li>
-                            <li><a href="">SLG200N</a></li>
-                            <li><a href="">SLG200NW</a></li>
+                            <li><a href="index.html">SLG200S</a></li>
+                            <li><a href="index.html">SLG200N</a></li>
+                            <li><a href="index.html">SLG200NW</a></li>
                         </ul>
                     </li>
                     <li>|</li>
-                    <li><a href="#">ELECTRONIC GUITAR</a>
+                    <li><a href="index.html">ELECTRONIC GUITAR</a>
                         <ul>
-                            <li><a href="">SIGNATURE</a></li>
-                            <li><a href="">REVSRAR</a></li>
-                            <li><a href="">SG</a></li>
-                            <li><a href="">TELECASTER</a></li>
+                            <li><a href="index.html">SIGNATURE</a></li>
+                            <li><a href="index.html">REVSRAR</a></li>
+                            <li><a href="index.html">SG</a></li>
+                            <li><a href="index.html">TELECASTER</a></li>
                         </ul>
                     </li>
                     <li>|</li>
-                    <li><a href="#">BASE GUITAR</a>
+                    <li><a href="index.html">BASE GUITAR</a>
                         <ul>
-                            <li><a href="">PRECISION&nbsp;BASS</a></li>
-                            <li><a href="">JASS&nbsp;BASS</a></li>
+                            <li><a href="index.html">PRECISION&nbsp;BASS</a></li>
+                            <li><a href="index.html">JASS&nbsp;BASS</a></li>
                         </ul>
                     </li>
                     <li>|</li>
-                    <li><a href="#">CLASSIC GUITAR</a>
+                    <li><a href="index.html">CLASSIC GUITAR</a>
                         <ul>
-                            <li><a href="">GC/GCX</a></li>
-                            <li><a href="">NX&nbsp;SERIES</a></li>
-                            <li><a href="">CS&nbsp;SERIES</a></li>
+                            <li><a href="index.html">GC/GCX</a></li>
+                            <li><a href="index.html">NX&nbsp;SERIES</a></li>
+                            <li><a href="index.html">CS&nbsp;SERIES</a></li>
                         </ul>
                     </li>
                     <li>|</li>
-                    <li><a href="#">AMP</a>
+                    <li><a href="index.html">AMP</a>
                         <ul>
-                            <li><a href="">SOLID&nbsp;STATE</a></li>
-                            <li><a href="">VALVE</a></li>
-                            <li><a href="">HYBIRD</a></li>
+                            <li><a href="index.html">SOLID&nbsp;STATE</a></li>
+                            <li><a href="index.html">VALVE</a></li>
+                            <li><a href="index.html">HYBIRD</a></li>
                         </ul>
                     </li>
                     <li>|</li>
                     <li><a href="#">ACCESORY</a>
                         <ul>
-                            <li><a href="">STRING</a></li>
-                            <li><a href="">METRONOME</a></li>
-                            <li><a href="">EFFECTOR</a></li>
+                            <li><a href="index.html">STRING</a></li>
+                            <li><a href="index.html">METRONOME</a></li>
+                            <li><a href="index.html">EFFECTOR</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -227,18 +294,17 @@
         <div id="detail">
             <div id="guide">
 
-                <ul>
-                    <li>PRODUCT DETAIL</a></li>
-                    <li>|</li>
-                    <li>REVIEW</a></li>
-                    <li>|</li>
-                    <li>Q&A</a></li>
-                    <li>|</li>
-                    <li>SHOPPING GUIDE</a></li>
-                </ul>
+                <div id="productdetail">
 
-
-                <div class="productdetail">
+                    <ul>
+                        <li>PRODUCT DETAIL</li>
+                        <li>|</li>
+                        <li><a href="#review">REVIEW</a></li>
+                        <li>|</li>
+                        <li><a href="#qa">Q&A</a></li>
+                        <li>|</li>
+                        <li><a href="#shopping">SHOPPING GUITAR</a></li>
+                    </ul>
 
                     <img src="img/detail1.jpg" alt="">
 
@@ -327,7 +393,18 @@
                         </div>
                     </div>
                 </div>
-                <div class="review">
+                <div id="review">
+
+                    <ul>
+                        <li><a href="#productdetail">PRODUCT DETAIL</a></li>
+                        <li>|</li>
+                        <li>REVIEW</li>
+                        <li>|</li>
+                        <li><a href="#qa">Q&A</a></li>
+                        <li>|</li>
+                        <li><a href="#shopping">SHOPPING GUITAR</a></li>
+                    </ul>
+
                     <div class="rehead">
                         <h3>상품후기</h3>
                     </div>
@@ -365,7 +442,17 @@
 
                 </div>
 
-                <div class="qa">
+                <div id="qa">
+
+                    <ul>
+                        <li><a href="#productdetail">PRODUCT DETAIL</a></li>
+                        <li>|</li>
+                        <li><a href="#review">REVIEW</a></li>
+                        <li>|</li>
+                        <li>Q&A</li>
+                        <li>|</li>
+                        <li><a href="#shopping">SHOPPING GUITAR</a></li>
+                    </ul>
 
                     <div class="qahead">
                         <h3>상품문의</h3>
@@ -418,7 +505,18 @@
                     <button>상품후기 글쓰기</button>
                 </div>
 
-                <div class="shopping">
+                <div id="shopping">
+
+                    <ul>
+                        <li><a href="#productdetail">PRODUCT DETAIL</a></li>
+                        <li>|</li>
+                        <li><a href="#review">REVIEW</a></li>
+                        <li>|</li>
+                        <li><a href="#qa">Q&A</a></li>
+                        <li>|</li>
+                        <li>SHOPPING GUITAR</li>
+                    </ul>
+
                     <h3>배송안내</h3>
 
                     <p>- 배송비용은 상세페이지 표기된 금액이 우선시되며, 지역별 차등배송비가 부과됩니다.<br>

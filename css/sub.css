@@ -4,7 +4,8 @@
 nav{width: 100%; height: 60px; border: 1px solid rgb(228, 228, 228);}
 #category{width: 1165px; height: 60px; margin: 0 auto;}
 #category>ul{ display: flex; justify-content: space-evenly; height: 100%; align-items: center;}
-#category ul li{position: relative; padding: 15px;}
+#category ul li{position: relative; padding: 15px; color: rgb(196, 196, 196);}
+#category ul li a{color: #888;}
 #category ul li ul{z-index: 15; position: absolute; top:53px;left: 50%; transform: translateX(-50%); display: none;}
 #category ul li:hover ul{display: block;} 
 #category ul li ul li:hover{background-color: rgb(228, 228, 228)}
@@ -42,21 +43,27 @@ select{ width: 170px; height: 30px; border: rgb(196, 196, 196) 1px solid; text-a
 
 #detail{width:100%; height: 4000px; border-top: rgb(228, 228, 228) 1px solid;}
 #guide{width: 1165px; height: 100%; margin: 0 auto;}
-#guide ul{display: flex; justify-content: center; margin-top: 100px;}
-#guide ul li{margin: 17px; color: rgb(150, 150, 150);}
-#guide li:hover{color:#333; cursor: pointer;}
+#guide ul{display: flex; justify-content: center; margin-bottom: 100px;}
+#guide ul li {margin: 17px; color: rgb(179, 179, 179);}
+#productdetail ul li:first-child{color: #333;}
+#review ul li:nth-of-type(3){color: #333;}
+#qa ul li:nth-of-type(5){color: #333;}
+#shopping ul li:nth-of-type(7){color: #333;}
+#guide ul li a{color: rgb(179, 179, 179);}
+#guide li a:hover{color:#333; cursor: pointer;}
 
 
-.productdetail{margin-top: 100px;}
-.productdetail img:first-child{width: 1162px;}
-.productdetail iframe{width: 100%; margin: 0 auto;}
-.productdetail img:nth-of-type(2){width: 1162px;}
+#productdetail{margin-top: 100px;}
+#productdetail >img{width: 100%;}
+#productdetail>iframe{width: 100%; margin: 0 auto;}
+#productdetail img:nth-of-type(2){width: 100%;}
 .pattern{width: 100%; height:400px;}
 .pattern img{width: 382px; height: 366px; float: right;}
 .pattern .textbox{float: left; margin-top:100px; width: 700px; text-align: center;}
 .pattern .textbox p{font-size: 14px; margin-top: 50px;}
 .pattern{ width: 100%; height: 450px; padding: 30px; margin-top: 30px ; border: rgb(228, 228, 228) 1px solid;}
 
+#review, #qa, #shopping{display: none;}
 
 .bodystyle{width: 100%; height: 500px; border-bottom: rgb(228, 228, 228) 1px solid;}
 .bodystyle img:nth-of-type(1){width: 380px; height: 260px;}
@@ -79,16 +86,14 @@ select{ width: 170px; height: 30px; border: rgb(196, 196, 196) 1px solid; text-a
 .pick div p{padding: 25px; font-size: 15px;}
 .pick img{width: 100%; height: 300px;}
 
+#review{margin-top: 100px;}
 
-
-.review{display: none;}
-
-.qa{display: none;}
+#qa{margin-top: 100px;}
 .qahead, .rehead{background-color:rgb(245, 245, 245); padding: 20px; text-align: center; margin-top: 100px; border: 1px solid rgb(196, 196, 196);}
 .question, .rev{padding: 20px; line-height: 30px; border: 1px solid rgb(228, 228, 228);}
-.qa button, .review button {padding: 10px 30px; float: right; margin: 15px;background-color: white; border:1px solid rgb(228, 228, 228);}
-.qa button, .review button:hover{border-color: #333; cursor: pointer;}
+#qa button, #review button {padding: 10px 30px; float: right; margin: 15px;background-color: white; border:1px solid rgb(228, 228, 228);}
+#qa button, #review button:hover{border-color: #333; cursor: pointer;}
 
-.shopping{display: none;}
-.shopping h3{font-size: 22px; margin:80px 0 20px 0px;}
-.shopping p{font-size: 15px; line-height: 30px;}
+#shopping{margin-top: 100px;}
+#shopping h3{font-size: 22px; margin:80px 0 20px 0px;}
+#shopping p{font-size: 15px; line-height: 30px;}
