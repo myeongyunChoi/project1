@@ -31,7 +31,6 @@ header li ul{display: none;}
 header ul:hover ul{display: block;}
 #icon{float: right; width: 170px; height: 60px; margin: 40px 5px 0 0px;}
 #icon img{float: right; width: 28px; height: 30px; margin: 0 0 0 20px;}
-#icon img[alt="검색"]:active{width: 200px;}
 #icon input{position: absolute; width: 130px; height: 30px; text-align: center; border: #666 3px solid; display: none;}
 
 
