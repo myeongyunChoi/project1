@@ -3,7 +3,7 @@
 
 #category{width: 1165px; height: 600px; margin: 0 auto;}
 #category nav{float: left; margin: 300px 0 0 21px; width:360px; height: 145px; background-color: rgb(211, 217, 228);}
-#category nav img{margin:-210px 0 0 77px; float: left;}
+#category nav img{margin:-210px 0 0 77px; float: left;transition: all 0.3s linear;}
 #category nav img[alt="amp"]{margin:-100px 0 0px 77px;}
 #category nav img[alt="elec"]{margin: -205px 0 0 77px;}
 #category nav img:hover{transform: scale(1.2);}
@@ -18,7 +18,7 @@
 .guitarbody{position: relative; width: 560px; height: 385px; float: left; margin: 100px 0 0 21px;}
 .guitarbody img{position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
 .guitar{position: relative; float: right; width: 260px; height:320px; margin: 105px 21px 0 0px; background-color: rgb(244, 248, 250);}
-.guitar img{position: absolute; top:-15px;}
+.guitar img{position: absolute; top:-15px;transition: all 0.2s linear;}
 .guitar img:hover{transform:scale(1.2);cursor: pointer;}
 .guitar label{float: left;}
 .guitar span{float: left; margin: 345px 0 0 90px;}
@@ -34,7 +34,7 @@
 .silentbody{position: relative; float:right; width: 560px; height: 385px; margin: 90px 21px 0 0px; background-color: azure;}
 .silentbody img{position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
 .silentgt{position: relative; float: left; width: 260px; height:320px; margin: 147px 0 0 21px; background-color: rgb(244, 248, 250);}
-.silentgt img{position: absolute; float: left; left: 15px; top:10px;}
+.silentgt img{position: absolute; float: left; left: 15px; top:10px;transition: all 0.2s linear;}
 .silentgt img:hover{transform:scale(1.2);cursor: pointer;}
 .silentgt span{float: left; margin: 350px 0 0 95px;}
 .silentgt .slg{ margin: 350px 0 0 85px;}
@@ -45,6 +45,7 @@
 .elecbody{ position: relative; float:left; width: 560px; height: 385px; margin: 100px 21px 0 21px; background-color: azure;}
 .elecbody img{position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
 .elgt{ float: left; width: 260px; height:320px; margin: 105px 21px 0 0px; background-color: rgb(244, 248, 250);}
+.elgt img{transition: all 0.2s linear;}
 .elgt img:hover{transform:scale(1.2);cursor: pointer;}
 .elgt span{float: left; margin: 40px 0 0 90px;}
 .elgt .ya{margin: 40px 0 0 65px;}
