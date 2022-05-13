@@ -19,8 +19,8 @@ section{width:1165px; height: 950px; margin: 0 auto;}
 
 .plus{width: 70px; height: 600px; position: absolute;top:170px; left: 470px;}
 .plusimg{padding: 5px; width: 70px; height: 105px; border: rgb(228, 228, 228) 1px solid;margin-bottom: 10px;}
-.plusimg>img {width: 55px; height: 95px; transition: all ease 0.2s;}
-.plusimg>img:hover{cursor:zoom-in;transform: scale(1.2);}
+.plusimg img {width: 55px; height: 95px; transition: all ease 0.2s;}
+.plusimg img:hover{cursor:zoom-in;transform: scale(1.2);}
 
 
 #purchase{float: right; width: 450px; height: 100%; margin: 0 auto; border-left:1px rgb(228, 228, 228) solid;}
@@ -51,7 +51,6 @@ select{ width: 170px; height: 30px; border: rgb(196, 196, 196) 1px solid; text-a
 #shopping ul li:nth-of-type(7){color: #333;}
 #guide ul li a{color: rgb(179, 179, 179);}
 #guide li a:hover{color:#333; cursor: pointer;}
-
 
 #productdetail{margin-top: 100px;}
 #productdetail >img{width: 100%;}
